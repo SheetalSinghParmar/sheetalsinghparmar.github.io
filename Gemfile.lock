@@ -22,6 +22,7 @@ GEM
     algoliasearch (1.27.5)
       httpclient (~> 2.8, >= 2.8.3)
       json (>= 1.5.1)
+<<<<<<< HEAD
     base64 (0.2.0)
     benchmark (0.4.0)
     bigdecimal (3.1.9)
@@ -30,11 +31,25 @@ GEM
     connection_pool (2.5.3)
     csv (3.3.4)
     drb (2.2.1)
+=======
+    base64 (0.3.0)
+    benchmark (0.4.1)
+    bigdecimal (3.2.2)
+    colorator (1.1.0)
+    concurrent-ruby (1.3.5)
+    connection_pool (2.5.3)
+    csv (3.3.5)
+    drb (2.2.3)
+>>>>>>> 43f5226377be5c61e9e6d66bd79fdb3ccc3c9d94
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
+<<<<<<< HEAD
     faraday (2.13.1)
+=======
+    faraday (2.13.4)
+>>>>>>> 43f5226377be5c61e9e6d66bd79fdb3ccc3c9d94
       faraday-net_http (>= 2.0, < 3.5)
       json
       logger
@@ -53,6 +68,7 @@ GEM
     filesize (0.2.0)
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
+<<<<<<< HEAD
     google-protobuf (4.30.2)
       bigdecimal
       rake (>= 13)
@@ -69,6 +85,33 @@ GEM
       bigdecimal
       rake (>= 13)
     google-protobuf (4.30.2-x86_64-linux)
+=======
+    google-protobuf (4.31.1)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.31.1-aarch64-linux-gnu)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.31.1-aarch64-linux-musl)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.31.1-arm64-darwin)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.31.1-x86-linux-gnu)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.31.1-x86-linux-musl)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.31.1-x86_64-darwin)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.31.1-x86_64-linux-gnu)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.31.1-x86_64-linux-musl)
+>>>>>>> 43f5226377be5c61e9e6d66bd79fdb3ccc3c9d94
       bigdecimal
       rake (>= 13)
     html-pipeline (2.14.3)
@@ -139,8 +182,14 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     logger (1.7.0)
+<<<<<<< HEAD
     mercenary (0.4.0)
     minimal-mistakes-jekyll (4.27.0)
+=======
+    mercenary (0.3.6)
+    mini_portile2 (2.8.9)
+    minimal-mistakes-jekyll (4.27.3)
+>>>>>>> 43f5226377be5c61e9e6d66bd79fdb3ccc3c9d94
       jekyll (>= 3.7, < 5.0)
       jekyll-feed (~> 0.1)
       jekyll-gist (~> 1.5)
@@ -175,9 +224,15 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     progressbar (1.13.0)
+<<<<<<< HEAD
     public_suffix (6.0.2)
     racc (1.8.1)
     rake (13.2.1)
+=======
+    public_suffix (5.1.1)
+    racc (1.8.1)
+    rake (13.3.0)
+>>>>>>> 43f5226377be5c61e9e6d66bd79fdb3ccc3c9d94
     rb-fsevent (0.11.2)
     rb-inotify (0.11.1)
       ffi (~> 1.0)
@@ -185,6 +240,7 @@ GEM
     rouge (4.5.2)
     rubyzip (2.4.1)
     safe_yaml (1.0.5)
+<<<<<<< HEAD
     sass-embedded (1.87.0-aarch64-linux-gnu)
       google-protobuf (~> 4.30)
     sass-embedded (1.87.0-aarch64-linux-musl)
@@ -203,12 +259,50 @@ GEM
       google-protobuf (~> 4.30)
     sass-embedded (1.87.0-x86_64-linux-musl)
       google-protobuf (~> 4.30)
+=======
+    sass-embedded (1.89.2)
+      google-protobuf (~> 4.31)
+      rake (>= 13)
+    sass-embedded (1.89.2-aarch64-linux-android)
+      google-protobuf (~> 4.31)
+    sass-embedded (1.89.2-aarch64-linux-gnu)
+      google-protobuf (~> 4.31)
+    sass-embedded (1.89.2-aarch64-linux-musl)
+      google-protobuf (~> 4.31)
+    sass-embedded (1.89.2-arm-linux-androideabi)
+      google-protobuf (~> 4.31)
+    sass-embedded (1.89.2-arm-linux-gnueabihf)
+      google-protobuf (~> 4.31)
+    sass-embedded (1.89.2-arm-linux-musleabihf)
+      google-protobuf (~> 4.31)
+    sass-embedded (1.89.2-arm64-darwin)
+      google-protobuf (~> 4.31)
+    sass-embedded (1.89.2-riscv64-linux-android)
+      google-protobuf (~> 4.31)
+    sass-embedded (1.89.2-riscv64-linux-gnu)
+      google-protobuf (~> 4.31)
+    sass-embedded (1.89.2-riscv64-linux-musl)
+      google-protobuf (~> 4.31)
+    sass-embedded (1.89.2-x86_64-darwin)
+      google-protobuf (~> 4.31)
+    sass-embedded (1.89.2-x86_64-linux-android)
+      google-protobuf (~> 4.31)
+    sass-embedded (1.89.2-x86_64-linux-gnu)
+      google-protobuf (~> 4.31)
+    sass-embedded (1.89.2-x86_64-linux-musl)
+      google-protobuf (~> 4.31)
+>>>>>>> 43f5226377be5c61e9e6d66bd79fdb3ccc3c9d94
     sawyer (0.9.2)
       addressable (>= 2.3.5)
       faraday (>= 0.17.3, < 3)
     securerandom (0.4.1)
+<<<<<<< HEAD
     terminal-table (3.0.2)
       unicode-display_width (>= 1.1.1, < 3)
+=======
+    terminal-table (1.8.0)
+      unicode-display_width (~> 1.1, >= 1.1.1)
+>>>>>>> 43f5226377be5c61e9e6d66bd79fdb3ccc3c9d94
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     tzinfo-data (1.2025.2)
@@ -216,7 +310,10 @@ GEM
     unicode-display_width (2.6.0)
     uri (1.0.3)
     verbal_expressions (0.1.5)
+<<<<<<< HEAD
     wdm (0.2.0)
+=======
+>>>>>>> 43f5226377be5c61e9e6d66bd79fdb3ccc3c9d94
     webrick (1.9.1)
 
 PLATFORMS
