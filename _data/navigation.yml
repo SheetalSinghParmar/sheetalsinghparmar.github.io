@@ -1,12 +1,14 @@
 # main links
 main:
-  - title: "Home"
-    url: /
   - title: "About"
     url: /about/
+  - title: "CV"
+    url: /cv/
   - title: "My Work"
     url: /mywork/
   - title: "My Writings"
     url: /mywritings/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Certifications"
+    url: /certifications/
+  - title: "Contact Me"
+    url: /contactme/

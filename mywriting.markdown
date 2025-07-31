@@ -2,7 +2,7 @@
 layout: categories_article
 title: My Writings
 permalink: /mywritings/
-author: Abisheak Jacob J
+author: Sheetal Singh Parmar
 author_profile: true
 ---
 
